@@ -13,7 +13,7 @@ a {
 	color: #007fff;
 	text-decoration: none;
 	@media (prefers-color-scheme: dark) {
-		color: rgb(88, 194, 255);
+		color: rgb(37, 29, 20);
 	}
 }
 
@@ -24,7 +24,7 @@ body {
 	height: 100vh;
 	box-sizing: border-box;
 
-	background-color: #f0f0f0;
+	background-color: #251d14;
 
 	font-family: 'DM Mono', monospace;
 	@media (prefers-color-scheme: dark) {
@@ -63,7 +63,6 @@ ul {
 		border-radius: 0.2rem;
 		transition: 200ms box-shadow;
 		&:hover {
-			box-shadow: 0 0.1rem 1rem #0001;
 		}
 		@media (prefers-color-scheme: dark) {
 			background-color: #222;
