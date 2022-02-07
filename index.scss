@@ -42,7 +42,6 @@ body {
 	transition: 1s transform cubic-bezier(0.175, 0.885, 0.32, 1.275), 1s box-shadow;
 	&:hover {
 		transform: scale(1.7);
-		box-shadow: 0 0.5rem 2rem #0005;
 	}
 	-moz-image-rendering: pixelated;
 	image-rendering: pixelated;
@@ -65,7 +64,7 @@ ul {
 		&:hover {
 		}
 		@media (prefers-color-scheme: dark) {
-			background-color: #222;
+			background-color: #AD5A4A;
 		}
 	}
 }
